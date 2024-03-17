@@ -5,8 +5,8 @@ phases:
       python: 3.11
   build:
     commands:
-      - pip install -r requirements.txt -t .
+      - pip install -r requirements.txt -t . #install dependencies
       - zip -r function.zip .
 artifacts:
   files:
-    - function.zip
+    - function.zip 
